@@ -3,93 +3,82 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<h1 align="center">Search Engine</h3>
+<h1 align="center">Automated Redundancy Removal Tool</h3>
   <p align="center">
-    A scalable search engine which can be utilized to find websites on the Internet
+     An automated tool that systemically identifies and removes unnecssary '#Include' redundancies
   </p>
   <p align="center">
-    <strong>EECS 485</strong> <br> November - December 2024
+    <strong>Altair Engineering</strong> <br> May - August 2024
   </p>
 </div>
-
-<p align="center">
-  <object data="https://github.com/user-attachments/files/18971471/Internship.Project.2024.-.Altair.Engineering.pdf" width="1000" height="1000" type='application/pdf'/>
-</p>
 
 
 ## Table of Contents
 
-   * [About The Project](#about-the-project)
-   * [Tools and Languages](#tools-and-languages)
-   * [Features](#features)
-   * [Components](#components)
+   * [Main Development Objectives](#main-development-objectives)
+   * [Features & Use Cases](#features-&-use-cases)
+   * [Project Reflection](#project-reflection)
    * [Acknowledgments](#acknowledgments)
 
+## Tools and Languages
+- [ ] [![Python][python]][python_url]
+- [ ] ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
+- [ ] [ripgrep](https://github.com/BurntSushi/ripgrep)
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+# Main Development Objectives
 
+## Objectives
+- [ ] Develop an efficient approach towards optimizing compilation time of HyperWorks builds
+- [ ] Create a tool that identifies and removes redundancies throughout the HyperWorks code base
+- [ ] Better integrate the usage of the hierarchical data structure of includes (aka. Include Hierarchy) to introduce more optimal solutions
+
+## Measuring Success
+- [ ] Substantially extended elimination of unnecessary dependencies by targeting all available files in Include Hierarchy
+- [ ] Enabled diverse query processing that can accommodate various user requests and time constraints
+- [ ] Preliminary test displayed ~12% decrease in build time
+
+## Include Dependencies
 <p align="center">
-  A working search engine that allows for information retrieval utilizing a Service-Oriented Architecture to scale dynamic pages and web search. As a whole, this project aims to imitate the same kinds of experiences found in popular search engines such as Google and Bing, with a variety of hyperlinks displayed to user based on the relative importance of each website.
+  <img width="1190" alt="Screenshot 2025-02-25 at 15 06 15" src="https://github.com/user-attachments/assets/c5ee86f1-4fb2-4cd9-9b79-ad83e509ee4d" />
 </p>
 
-## Tools and Languages
-<!-- [![C++][cplusplus]][cplusplus-url] -->
+## Compilation Dilemma
+<p align="center">
+  <img width="1196" alt="Screenshot 2025-02-25 at 15 12 43" src="https://github.com/user-attachments/assets/9dd8154f-ad4f-4002-b29a-a0c2c121fa15" />
+</p>
 
-[![Python][python]][python_url]
-[![HTML][html]][html_url]
-[![CSS][css]][css_url]
-[![SQLite][sqlite]][sqlite_url]
+## Optimization Solution
+<p align="center">
+  <img width="1205" alt="Screenshot 2025-02-25 at 15 16 17" src="https://github.com/user-attachments/assets/5e2c74b4-705f-4eee-9796-4bc76d05b964" />
+</p>
 
-[![Flask][flask]][flask_url]
-[![Jinja][jinja]][jinja_url]
-[![PyCharm][pycharm]][pycharm_url]
+# Features & Use Cases
 
+## Main Features
+<p align="center">
+  <img width="1229" alt="Screenshot 2025-02-25 at 15 19 17" src="https://github.com/user-attachments/assets/0383308f-fd71-413a-a4ec-a54a682559eb" />
+</p>
 
-<!-- FEATURES -->
-## Features
+## Use Cases & Benifets
+<p align="center">
+  <img width="1224" alt="Screenshot 2025-02-25 at 15 19 43" src="https://github.com/user-attachments/assets/0828d471-954d-417d-a4a2-5adb3e9b7232" />
+</p>
 
-- [ ] Created a Flask application in a Python virtual environment in order to connect to database and rendered webpages
-- [ ] Utilized SQLite to create and store information about each website (ie. document ID, score, title, url, and summary)
-- [ ] Text analysis (tf-idf) and link analysis (PageRank) + parallel data processing with MapReduce
-- [ ] Rendered website pages by using templates and their context using the Jinja2 library
+# Project Reflection
 
-## Components
-
-- Created a segmented inverted index of web pages using a pipeline of MapReduce programs
-- Using that information, a REST API app returns search results in JSON format (ie. the Index server)
-- Finally, a user interface returns search results just like Google or Bing (ie. Search server)
-
+## Key Learnings & Reflection
+<p align="center">
+  <img width="1124" alt="Screenshot 2025-02-25 at 15 20 07" src="https://github.com/user-attachments/assets/b46e0200-f521-483d-8eff-90377d97d938" />
+</p>
 
 ## Acknowledgments
 
-[EECS 485 Project 5 Description](https://eecs485staff.github.io/p5-search-engine/) <br>
+My main project as an intern under the initiative of my manager Bill Kilpatrick, Senior Director of Software Development @ Altair Engineering
 
 <!-- MARKDOWN LINKS & IMAGES -->
-
-[flask]: https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white
-[flask_url]: https://flask.palletsprojects.com/en/3.0.x/
-
-[aws]: https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white
-[aws_url]: https://aws.amazon.com/
-
-[pycharm]: https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green
-[pycharm_url]: https://www.jetbrains.com/pycharm/
 
 [python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [python_url]: https://www.python.org/
 
-[jinja]: https://img.shields.io/badge/jinja-white.svg?style=for-the-badge&logo=jinja&logoColor=black
-[jinja_url]: https://jinja.palletsprojects.com/en/3.1.x/
-
 [github]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
 [github_url]: https://github.com/
-
-[sqlite]: https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white
-[sqlite_url]: https://www.sqlite.org/
-
-[html]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
-[html_url]: https://www.w3.org/TR/2011/WD-html5-20110405/
-
-[css]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
-[css_url]: https://developer.mozilla.org/en-US/docs/Web/CSS
