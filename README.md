@@ -59,7 +59,7 @@
   <img width="1229" alt="Screenshot 2025-02-25 at 15 19 17" src="https://github.com/user-attachments/assets/0383308f-fd71-413a-a4ec-a54a682559eb" />
 </p>
 
-## Use Cases & Benifets
+## Use Cases & Benefits
 <p align="center">
   <img width="1224" alt="Screenshot 2025-02-25 at 15 19 43" src="https://github.com/user-attachments/assets/0828d471-954d-417d-a4a2-5adb3e9b7232" />
 </p>
