@@ -5,7 +5,7 @@
 <div align="center">
 <h1 align="center">Automated Redundancy Removal Tool</h3>
   <p align="center">
-     An automated tool that systemically identifies and removes unnecssary '#Include' redundancies
+     An automated tool that systemically identifies and removes unnecssary '#Include' redundancies utilizing a graph traversal algorithm, optimizing and streamlining the codebase
   </p>
   <p align="center">
     <strong>Altair Engineering</strong> <br> May - August 2024
